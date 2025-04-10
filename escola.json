@@ -1,0 +1,169 @@
+{
+    "escola": {
+      "nome": "Escola Técnica de Desenvolvimento",
+      "endereco": "Rua da Educação, 123, Centro, São Paulo, SP",
+      "telefone": "(11) 4002-8922",
+      "email": "contato@escolatecnica.com"
+    },
+    "alunos": [
+      {
+        "id": 1,
+        "nome": "João Silva",
+        "idade": 16,
+        "turma_id": 1,
+        "email": "joao.silva@email.com"
+      },
+      {
+        "id": 2,
+        "nome": "Maria Oliveira",
+        "idade": 17,
+        "turma_id": 2,
+        "email": "maria.oliveira@email.com"
+      },
+      {
+        "id": 3,
+        "nome": "Carlos Santos",
+        "idade": 16,
+        "turma_id": 1,
+        "email": "carlos.santos@email.com"
+      },
+      {
+        "id": 4,
+        "nome": "Ana Souza",
+        "idade": 18,
+        "turma_id": 3,
+        "email": "ana.souza@email.com"
+      },
+      {
+        "id": 5,
+        "nome": "Lucas Mendes",
+        "idade": 17,
+        "turma_id": 2,
+        "email": "lucas.mendes@email.com"
+      }
+    ],
+    "professores": [
+      {
+        "id": 1,
+        "nome": "Ricardo Pereira",
+        "especialidade": "Matemática",
+        "email": "ricardo.pereira@email.com"
+      },
+      {
+        "id": 2,
+        "nome": "Fernanda Lima",
+        "especialidade": "Português",
+        "email": "fernanda.lima@email.com"
+      },
+      {
+        "id": 3,
+        "nome": "Roberto Costa",
+        "especialidade": "Física",
+        "email": "roberto.costa@email.com"
+      },
+      {
+        "id": 4,
+        "nome": "Carla Souza",
+        "especialidade": "História",
+        "email": "carla.souza@email.com"
+      },
+      {
+        "id": 5,
+        "nome": "André Nogueira",
+        "especialidade": "Programação",
+        "email": "andre.nogueira@email.com"
+      }
+    ],
+    "turmas": [
+      {
+        "id": 1,
+        "nome": "2º Ano A",
+        "sala_id": 101,
+        "professor_id": 1
+      },
+      {
+        "id": 2,
+        "nome": "2º Ano B",
+        "sala_id": 102,
+        "professor_id": 2
+      },
+      {
+        "id": 3,
+        "nome": "3º Ano A",
+        "sala_id": 103,
+        "professor_id": 3
+      },
+      {
+        "id": 4,
+        "nome": "3º Ano B",
+        "sala_id": 104,
+        "professor_id": 4
+      },
+      {
+        "id": 5,
+        "nome": "1º Ano A",
+        "sala_id": 105,
+        "professor_id": 5
+      }
+    ],
+    "disciplinas": [
+      {
+        "id": 1,
+        "nome": "Matemática",
+        "professor_id": 1,
+        "turma_id": 1
+      },
+      {
+        "id": 2,
+        "nome": "Português",
+        "professor_id": 2,
+        "turma_id": 2
+      },
+      {
+        "id": 3,
+        "nome": "Física",
+        "professor_id": 3,
+        "turma_id": 3
+      },
+      {
+        "id": 4,
+        "nome": "História",
+        "professor_id": 4,
+        "turma_id": 4
+      },
+      {
+        "id": 5,
+        "nome": "Programação",
+        "professor_id": 5,
+        "turma_id": 5
+      }
+    ],
+    "salas": [
+      {
+        "id": 101,
+        "numero": "A101",
+        "capacidade": 30
+      },
+      {
+        "id": 102,
+        "numero": "B102",
+        "capacidade": 25
+      },
+      {
+        "id": 103,
+        "numero": "C103",
+        "capacidade": 30
+      },
+      {
+        "id": 104,
+        "numero": "D104",
+        "capacidade": 20
+      },
+      {
+        "id": 105,
+        "numero": "E105",
+        "capacidade": 35
+      }
+    ]
+  }
+  
