@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 });
 
 // define a porta
-const port = 3000;
+const port = 80;
 
 //cria o primento end-point
 app.get("/", (req, res) => res.send("Olá Mundo!"));
@@ -157,6 +157,4 @@ app.get("/alunos/nome/:nome", (req, res) => {
 
 
 
-app.listen(port, () =>
-  console.log(`Server running on port http://localhost:${port}`)
-);
+app.listen(port);
